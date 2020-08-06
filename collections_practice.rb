@@ -42,6 +42,8 @@ def sum_array(array)
   end
 end
 
-def add_s()
-  
+def add_s(array)
+  array.collect do |item|
+    item == array[1] ? arr << "s"
+  end
 end
