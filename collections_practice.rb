@@ -45,6 +45,6 @@ end
 def add_s(array)
   array.collect do |item|
     item == array[1] 
-    arr << "s"
+    item << "s"
   end
 end
